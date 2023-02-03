@@ -6,17 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript</title>
-    <link rel="stylesheet" href="index.css" </head>
+    <link rel="stylesheet" href="index.css">
+</head>
 
 <body>
 
-    <div class="main">
+    <div class="container">
 
         <h1>People entered: </h1>
-        <h2 id="counter-el">0</h2>
-        <button class="counter-btn" onclick="count()">Count</button>
+        <h2 id="count-el">0</h2>
+        <button id="increment-btn" onclick="increment()">Count</button>
+        <button id="save-btn" onclick="save()">SAVE</button>
+        <!-- <button class="counter-btn" onclick="count()">Count</button> -->
+        <p id="save-el">Previous entries:</p>
+        <script src="index.js"></script>
     </div>
-    <script src="index.js"></script>
+
 
 </body>
 
