@@ -36,6 +36,11 @@ button:first-of-type {
   margin-right: 8px;
   margin-left: calc(50% - 131.5px);
 }
+
 button::hover {
   cursor: pointer;
+}
+P {
+  text-align: center;
+  margin-top: 40px;
 }
