@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "myFont";
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: Verdana;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  background-color: #b1baba;
+  width: 1000px;
+  height: 400px;
+}
+.container {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #a3afe2;
+  margin: 50px;
+  /* margin-bottom: 30px; */
+  width: 800px;
+  height: 700px;
+  padding: 10px;
+  border-radius: 3px;
+}
+.scoreBoard {
+  display: flex;
+  align-items: center;
+  border: 5px solid whitesmoke;
+  border-radius: 10px;
+  background-color: #1b244a;
+  margin: 50px;
+  margin-bottom: 1px;
+}
+.teamContainer {
+  margin: 20px;
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  text-transform: uppercase;
+}
+h3 {
+  margin-bottom: 20px;
+}
+.one,
+.two {
+  margin-left: 10px;
+  background-color: #080001;
+  margin: 1px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 155px;
+  height: 120px;
+  font-family: myFont;
+  text-align: center;
+  color: #f94f6d;
+  font-weight: 400;
+  font-style: normal;
+}
+#homePoints {
+  /* padding-top: 0px; */
+  margin-top: 10px;
+  font-size: 90px;
+}
+#guestPoints {
+  margin-top: 10px;
+  font-size: 90px;
+}
+.CounterContainer {
+  width: 155px;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  height: 45px;
+  left: 82px;
+  top: 271px;
+}
+button {
+  color: #9aabd8;
+  border: 2px solid #9aabd8;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #1f3bb7;
+}
+.newgame-btn,
+.endgame-btn {
+  background-color: #1b244a;
+  border: 2px solid white;
+  width: 200px;
+  padding: 15px;
+  margin: 10px;
+  font-size: 24px;
+  color: white;
+  /* position: fixed; */
+}
+#winnerTeam-text {
+  /* width: 200px; */
+  margin: 10px;
+  /* margin-top: 2px; */
+  padding: 10px;
+}

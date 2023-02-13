@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<link rel="stylesheet" href="index.css">
+
+<body>
+    <!-- div>div*2>h3.classname -->
+    <div class="container">
+        <div class="scoreBoard">
+
+            <div class="teamContainer">
+                <h3 class="'text">HOME</h3>
+                <div class="one">
+
+                    <p id="homePoints">0</p>
+                </div>
+                <div class="CounterContainer">
+                    <button class="onePlus" onclick="plusOne()">+1</button>
+                    <button class="twoPlus" onclick="plusTwo()">+2</button>
+                    <button class="threePlus" onclick="plusThree()">+3</button>
+                </div>
+            </div>
+            <div class="teamContainer">
+                <h3>GUEST</h3>
+                <div class="two">
+                    <p id="guestPoints">0</p>
+                </div>
+                <div class="CounterContainer">
+                    <button onclick="addOne()">+1</button>
+                    <button onclick="addTwo()">+2</button>
+                    <button onclick="addThree()">+3</button>
+                </div>
+            </div>
+
+
+        </div>
+        <p id="winnerTeam-text">Winner Team: -</p>
+
+        <button class="newgame-btn" onclick="setNewGame()">New Game</button>
+        <button class="endgame-btn" onclick="endGameScore()">End Game</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
